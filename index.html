@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gourmet</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body onload="zoom()">
+    <header>
+        <a href="#home" class="logo">Gourmet</a>
+        
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#products">Our cakes</a></li>
+            <li><button class="btn zoom play-on-scroll delay-2"><a href="#sign-up" class="button">Sign Up</a></button></li>
+        </ul>
+
+        <div class="header-icons">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bx-search' id="search-icon"></i>
+            <i class='bx bx-cart-alt' id="cart-icon"></i>
+        </div>
+
+        <div class="search-box">
+            <input type="search" name="" id="" placeholder="Search...">
+        </div>
+
+        <div class="cart">
+            <p>Your cart is empty.</p>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <img src="img/xmas-bg.jpg">
+        <div class="home-text">
+            <a href="#home" class="logo logo__2 left-to-right play-on-scroll">Gourmet</a>
+            <h1 class="left-to-right play-on-scroll delay-2">The best tastes are<br>baked here.</h1>
+            <button class="btn zoom play-on-scroll delay-6"><a href="#about">Discover</a></button>
+        </div> 
+    </section>
+
+    <section class="about" id="about">
+        <div class="heading right-to-left play-on-scroll">
+            <h1>About us</h1>
+            <p>Our main goal is to inspire a symphony of flavours in your mouth. We bake for those who want to enjoy an honest dessert! Stop time for a while and take a moment for yourself or make your loved ones happy.</p>
+        </div>
+        
+        <div class="about-container">
+            <div class="zoom play-on-scroll">
+                <img src="img/about1.png">
+                <h2>First-class ingredients</h2>
+                <p>We do not use preservatives, additives, or battery-farm eggs. Most of our ingredients come from Europe.</p>
+            </div>
+            <div class="zoom play-on-scroll delay-2">
+                <img src="img/about2.png">
+                <h2>Genuine flavour</h2>
+                <p>We bake the way it should be done. Using real flour, eggs and sugar. And we are proud of it!</p>
+            </div>
+            <div class="zoom play-on-scroll delay-4">
+                <img src="img/about3.png">
+                <h2>A unique recipe</h2>
+                <p>Our pastry chefs are utter perfectionists. They are constantly tweaking recipes and inventing new delicacies and sweets. The kind you won't find anywhere else!</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="sign-up" id="sign-up">
+        <div class="sign-up-form left-to-right play-on-scroll">
+            <div class="sign-up-text">
+                <h2>Get updates from </h2>
+                <a href="#home" class="logo logo__sign-up">Gourmet</a>
+            </div>
+            <p>Sign-up to get periodic updates on our latest products and events.</p>
+            <div class="input-container">
+                <input type="text" placeholder="Email Address">
+                <button class="btn"><a href="#sign-up" class="button">Sign Up</a></button>
+            </div>
+        </div> 
+        <img src="img/signup-text-bg.jpg" class="sign-up-img right-to-left play-on-scroll">
+    </section>
+
+    <section class="products" id="products">
+        <div class="heading">
+            <h1 class="our-cakes zoom play-on-scroll">Our cakes</h1>
+        </div>
+
+        <div class="products-container">
+            <div class="box left-to-right play-on-scroll">
+                <img src="img/apple_tart.png" alt="">
+                <div class="content">
+                    <h2>Apple Tart</h2>
+                    <span>200.000&#8363;</span>
+                    <i class='bx bx-cart-alt' id="cart-icon"></i>
+                </div>
+            </div>
+
+            <div class="box right-to-left play-on-scroll">
+                <img src="img/blueberry-red-velvet-cake.png" alt="">
+                <div class="content">
+                    <h2>Blueberry Red Velvet Cake</h2>
+                    <span>200.000&#8363;</span>
+                    <i class='bx bx-cart-alt' id="cart-icon"></i>
+                </div>
+            </div>
+
+            <div class="box left-to-right play-on-scroll">
+                <img src="img/carrot-cake-with-walnuts.png" alt="">
+                <div class="content">
+                    <h2>Carrot Cake With Walnuts</h2>
+                    <span>200.000&#8363;</span>
+                    <i class='bx bx-cart-alt' id="cart-icon"></i>
+                </div>
+            </div>
+
+            <div class="box right-to-left play-on-scroll">
+                <img src="img/choco-blackcurrant-cake.png" alt="">
+                <div class="content">
+                    <h2>Choco Blackcurrant Cake</h2>
+                    <span>200.000&#8363;</span>
+                    <i class='bx bx-cart-alt' id="cart-icon"></i>
+                </div>
+            </div>
+
+            <div class="box left-to-right play-on-scroll">
+                <img src="img/honey_cake.png" alt="">
+                <div class="content">
+                    <h2>Honey Cake</h2>
+                    <span>200.000&#8363;</span>
+                    <i class='bx bx-cart-alt' id="cart-icon"></i>
+                </div>
+            </div>
+
+            <div class="box right-to-left play-on-scroll">
+                <img src="img/matcha_tea_cake.png" alt="">
+                <div class="content">
+                    <h2>Matcha Tea Cake</h2>
+                    <span>200.000&#8363;</span>
+                    <i class='bx bx-cart-alt' id="cart-icon"></i>
+                </div>
+            </div>
+
+            <div class="box left-to-right play-on-scroll">
+                <img src="img/royal-peanut-cake.png" alt="">
+                <div class="content">
+                    <h2>Royal Peanut Cake</h2>
+                    <span>200.000&#8363;</span>
+                    <i class='bx bx-cart-alt' id="cart-icon"></i>
+                </div>
+            </div>
+
+            <div class="box right-to-left play-on-scroll">
+                <img src="img/mango-passion-slice.png" alt="">
+                <div class="content">
+                    <h2>Mango Passion Slice</h2>
+                    <span>100.000&#8363;</span>
+                    <i class='bx bx-cart-alt' id="cart-icon"></i>
+                </div>
+            </div>
+
+            <div class="box left-to-right play-on-scroll">
+                <img src="img/strawberry-bavarois-slice.png" alt="">
+                <div class="content">
+                    <h2>Strawberry Bavarois Slice</h2>
+                    <span>100.000&#8363;</span>
+                    <i class='bx bx-cart-alt' id="cart-icon"></i>
+                </div>
+            </div>
+
+            <div class="box right-to-left play-on-scroll">
+                <img src="img/cheesecake-classic.png" alt="">
+                <div class="content">
+                    <h2>Cheesecake Classic</h2>
+                    <span>250.000&#8363;</span>
+                    <i class='bx bx-cart-alt' id="cart-icon"></i>
+                </div>
+            </div>
+
+            <div class="box left-to-right play-on-scroll">
+                <img src="img/cheesecake-apple-crumble.png" alt="">
+                <div class="content">
+                    <h2>Cheesecake Apple Crumble</h2>
+                    <span>300.000&#8363;</span>
+                    <i class='bx bx-cart-alt' id="cart-icon"></i>
+                </div>
+            </div>
+
+            <div class="box right-to-left play-on-scroll">
+                <img src="img/cheesecake-salted-caramel.png" alt="">
+                <div class="content">
+                    <h2>Cheesecake Salted Caramel</h2>
+                    <span>300.000&#8363;</span>
+                    <i class='bx bx-cart-alt' id="cart-icon"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="footer-box bottom-up play-on-scroll">
+            <a href="#home" class="logo logo__3">Gourmet</a>
+            <p>The best tastes are baked here.</p>
+        </div>
+        
+        <div class="footer-box bottom-up play-on-scroll delay-2">
+            <h2>Follow us</h2>
+            <div class="socials">
+                <i class='bx bxl-facebook'></i>
+                <i class='bx bxl-instagram'></i>
+                <i class='bx bxl-twitter'></i>
+            </div>
+        </div>
+
+        <div class="footer-box bottom-up play-on-scroll delay-4">
+            <h2>Main menu</h2>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#products">Our cakes</a></li>
+        </div>
+
+        <div class="footer-box bottom-up play-on-scroll delay-6">
+            <h2>Contact information</h2>
+            <li><a href="https://goo.gl/maps/VnK81CtL97pUpFpu7">Cau Giay, Ha Noi, Vietnam</a></li>
+            <li><a href="">gourmet@shop.com</a></li>
+        </div>
+    </section>
+
+    <script type="text/javascript">
+        function zoom() {
+            document.body.style.zoom = "90%" 
+        }
+    </script>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -764,15 +764,6 @@ header {
     transform: unset;
 }
 
-.bottom-up {
-    transform: translateY(45%);
-    transition: 0.8s ease-in-out;
-}
-
-.bottom-up.start {
-    transform: translateY(0);
-}
-
 .delay-2 {
     transition-delay: 0.2s;
 }
